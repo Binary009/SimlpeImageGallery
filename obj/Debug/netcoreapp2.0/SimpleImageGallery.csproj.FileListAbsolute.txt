@@ -1,0 +1,10 @@
+/home/sammie/Csharp/SimpleImageGallery/bin/Debug/netcoreapp2.0/SimpleImageGallery.deps.json
+/home/sammie/Csharp/SimpleImageGallery/bin/Debug/netcoreapp2.0/SimpleImageGallery.runtimeconfig.json
+/home/sammie/Csharp/SimpleImageGallery/bin/Debug/netcoreapp2.0/SimpleImageGallery.runtimeconfig.dev.json
+/home/sammie/Csharp/SimpleImageGallery/bin/Debug/netcoreapp2.0/SimpleImageGallery.dll
+/home/sammie/Csharp/SimpleImageGallery/bin/Debug/netcoreapp2.0/SimpleImageGallery.pdb
+/home/sammie/Csharp/SimpleImageGallery/obj/Debug/netcoreapp2.0/SimpleImageGallery.csproj.CoreCompileInputs.cache
+/home/sammie/Csharp/SimpleImageGallery/obj/Debug/netcoreapp2.0/SimpleImageGallery.AssemblyInfoInputs.cache
+/home/sammie/Csharp/SimpleImageGallery/obj/Debug/netcoreapp2.0/SimpleImageGallery.AssemblyInfo.cs
+/home/sammie/Csharp/SimpleImageGallery/obj/Debug/netcoreapp2.0/SimpleImageGallery.dll
+/home/sammie/Csharp/SimpleImageGallery/obj/Debug/netcoreapp2.0/SimpleImageGallery.pdb
