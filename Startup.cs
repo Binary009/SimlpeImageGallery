@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SimpleImageGallery.Models;
+using SimpleImageGallery.Data.Models;
 
 namespace SimpleImageGallery
 {
@@ -22,6 +24,7 @@ namespace SimpleImageGallery
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SimpleImageGalleryDbContext>(options => UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IImage, ImageService>();
             services.AddMvc();
         }
 
