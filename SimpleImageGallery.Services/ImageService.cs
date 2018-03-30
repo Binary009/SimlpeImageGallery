@@ -23,8 +23,9 @@ namespace SimpleImageGallery.Services
         
         public GalleryImage GetById(int id)
         {
-            // returns instance of gallery image that corresponds to the id that we pass to GetById
-            return _ctx.GalleryImages.Find(id);
+            // returns instance of gallery image that corresponds to the id that we pass to GetById (grabs first from the collection)
+            return GetAll().Where(img => img.Id == id)
+                .First();
         }
 
         // Return images where the tags matches the tag that we pass it (string tag)

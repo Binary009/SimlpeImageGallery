@@ -9,7 +9,7 @@ namespace SimpleImageGallery.Data.Models
         public int Id { get; set; }
         public string Title { get; set; }
         public DateTime Created { get; set; }
-        public string Url { get; set; }         // Storing image in cloud
+        public string Url { get; set; }         // Storing image in cloud (path to image, whether locally or remotely)
         public virtual IEnumerable<ImageTag> Tags { get; set; }   // Users can tag pics and they can search on  
     }
 }
