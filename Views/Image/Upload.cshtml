@@ -1,0 +1,29 @@
+@model.SimpleImageGallery.Models.UploadImageModel
+
+<div class="container body-content">
+    <div class="row upload-container">
+        <div class="upload-form drop-shadow">
+            <form asp-action="UploadNewImage" id="uplaod-form" enctype="multipart/form-data" method="POST">
+                <div class="form-group">
+                    <label asp-for="Title">Title</label>
+                    <input asp-for="Title" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tags">Title</label>
+                    <input asp-for="Tags" type="text" class="form-control">
+                </div>
+                <div>
+                    <label for="" class="btn btn-default">
+                        Browse for image
+                        <input type="file" name="file" style="display: none" />
+                    </label>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="btn btn-info" id="btn-upload">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
