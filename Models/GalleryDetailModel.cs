@@ -13,4 +13,5 @@ namespace SimpleImageGallery.Models
         public string Url { get; set; }
         public List<string> Tags { get; set; }
     }
+    
 }
