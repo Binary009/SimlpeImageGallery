@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleImageGallery.Models;
 using SimpleImageGallery.Data.Models;
+using SimpleImageGallery.Services;
 
 namespace SimpleImageGallery
 {
@@ -46,7 +47,7 @@ namespace SimpleImageGallery
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Gallery}/{action=Index}/{id?}");
             });
         }
     }

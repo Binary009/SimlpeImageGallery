@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SimpleImageGallery.Models;
+using SimpleImageGallery.Services;
 
 namespace SimpleImageGallery.Controllers
 {
@@ -26,6 +27,17 @@ namespace SimpleImageGallery.Controllers
                 Images = imageList,
                 SearchQuery = ""
             };
+            return View(model);
+        }
+
+        public IActionResult Detail(int id)
+        {
+            var image = _imageService.GetById(id);
+            var model = new GalleryDetailModel()
+            {
+                Images = image,
+            };
+
             return View(model);
         }
     }

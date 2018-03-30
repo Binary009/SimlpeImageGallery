@@ -7,8 +7,8 @@ namespace SimpleImageGallery.Data
 {
     public interface IImage
     {
-        IEnumerable<GalleryImage> GetAll();     // return a collection of images
-        IEnumerable<GalleryImage> GetWithTags(string tag);
+        IEnumerable<GalleryImage> GetAll();     // Whoever implements this, returns a collection of images
+        IEnumerable<GalleryImage> GetWithTags(string tag);  // return images by tags that might be on the image
         GalleryImage GetById(int id);
     }
 }
