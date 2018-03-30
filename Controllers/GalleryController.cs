@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SimpleImageGallery.Data;
-using SimpleImageGallery.Models;s
+using SimpleImageGallery.Models;
 
 namespace SimpleImageGallery.Controllers
 {
